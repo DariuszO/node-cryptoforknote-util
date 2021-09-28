@@ -20,7 +20,7 @@
     "bitcoinjs-lib": "git+https://github.com/bitcoinjs/bitcoinjs-lib.git#533d6c2e6d0aa4111f7948b1c12003cf6ef83137"
   },
   "scripts": {
-    "install": "prebuild-install || node-gyp rebuild"
+    "install": "prebuild-install --download --verbose || node-gyp rebuild"
   },
   "keywords": [
     "cryptonight",
